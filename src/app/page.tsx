@@ -199,11 +199,11 @@ export default function Home() {
             <div className="p-6 bg-zinc-800/50 rounded-lg">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-zinc-700 text-white flex items-center justify-center font-bold mr-3">
-                  MR
+                  DH
                 </div>
                 <div>
-                  <h3 className="font-medium">Mike Rodriguez</h3>
-                  <p className="text-sm text-zinc-400">Pearland, TX</p>
+                  <h3 className="font-medium">Darrell Hutchins</h3>
+                  <p className="text-sm text-zinc-400">Rosharon, TX</p>
                 </div>
               </div>
               <div className="flex mb-3">
@@ -214,18 +214,18 @@ export default function Home() {
                 ))}
               </div>
               <blockquote className="text-zinc-400 text-sm italic">
-                &ldquo;West Land Clearing transformed our overgrown lot into a build-ready site in two days. Outstanding work.&rdquo;
+                &ldquo;Had about 4.5 acres out here that was nothing but cedar, yaupon, and old stumps from the previous owner. Was going to burn it off myself but a neighbor talked me into calling first. Glad I did — they had the whole thing mulched and cleaned up in a day and a half. Cheaper than I expected too.&rdquo;
               </blockquote>
             </div>
 
             <div className="p-6 bg-zinc-800/50 rounded-lg">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-zinc-700 text-white flex items-center justify-center font-bold mr-3">
-                  ST
+                  KF
                 </div>
                 <div>
-                  <h3 className="font-medium">Sarah Thompson</h3>
-                  <p className="text-sm text-zinc-400">Manvel, TX</p>
+                  <h3 className="font-medium">Kristi Fontenot</h3>
+                  <p className="text-sm text-zinc-400">Alvin, TX</p>
                 </div>
               </div>
               <div className="flex mb-3">
@@ -236,18 +236,18 @@ export default function Home() {
                 ))}
               </div>
               <blockquote className="text-zinc-400 text-sm italic">
-                &ldquo;Hired them for forestry mulching on 3 acres. Fast, clean, professional. Would hire again without hesitation.&rdquo;
+                &ldquo;Bought a lot off 35 last year planning to build. The back half was completely overgrown — couldn't even walk through it. They cleared the brush and ground the stumps. Straight with me on pricing, no surprise charges after the fact. Site was ready for my builder within the week.&rdquo;
               </blockquote>
             </div>
 
             <div className="p-6 bg-zinc-800/50 rounded-lg">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-zinc-700 text-white flex items-center justify-center font-bold mr-3">
-                  JB
+                  WT
                 </div>
                 <div>
-                  <h3 className="font-medium">James Burkett</h3>
-                  <p className="text-sm text-zinc-400">Angleton, TX</p>
+                  <h3 className="font-medium">Wayne Thibodaux</h3>
+                  <p className="text-sm text-zinc-400">Iowa Colony, TX</p>
                 </div>
               </div>
               <div className="flex mb-3">
@@ -258,7 +258,7 @@ export default function Home() {
                 ))}
               </div>
               <blockquote className="text-zinc-400 text-sm italic">
-                &ldquo;Stump grinding and brush removal done right. They left the property cleaner than expected.&rdquo;
+                &ldquo;Had about a dozen stumps left over from when we cleared years back, some of them big. They got all of them same day and hauled off the grindings. Wouldn't have changed anything about how they handled it.&rdquo;
               </blockquote>
             </div>
           </div>
