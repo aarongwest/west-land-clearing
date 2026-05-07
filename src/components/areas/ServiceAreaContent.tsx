@@ -20,7 +20,6 @@ export default function ServiceAreaContent({
   featuredService,
   neighboringCities
 }: ServiceAreaContentProps) {
-  // Main content column
   const mainContent = (
     <div>
       <div className="mb-6">
@@ -31,36 +30,33 @@ export default function ServiceAreaContent({
       </div>
 
       <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-8">
-        Land Clearing Services in {city}, Texas <br />
+        Land Clearing in {city}, TX <br />
         <span className="text-zinc-400">Forestry Mulching &amp; Stump Grinding</span>
       </h1>
 
       <p className="text-lg text-zinc-400 mb-12">
-        West Land Clearing provides professional land clearing, forestry mulching, and stump grinding services throughout {city}, Texas and surrounding areas.
-        Our experienced team and modern equipment deliver exceptional quality and service for your {countyLocation} projects,
-        ensuring excellent results for every job.
+        West Land Clearing serves {city} and {countyLocation} property owners with forestry mulching, stump grinding, and brush removal.
+        We're Pearland-based and owner-operated — when you call, you're reaching the operator who'll be on your property. We come out, walk the land, and give you a real number before any work starts.
       </p>
 
       {/* CTA Section */}
       <div className="p-6 bg-zinc-800/50 rounded-lg mb-16">
-        <h2 className="text-xl font-semibold mb-4">Need land clearing in {city}?</h2>
+        <h2 className="text-xl font-semibold mb-4">Need land cleared in {city}?</h2>
         <p className="text-zinc-400 mb-6">
-          Contact us today for a detailed quote. Our land clearing team is ready to serve your {city} location.
+          We serve {city} and surrounding {countyLocation} — most jobs get on the schedule within days of the estimate. Contact us to set up a free on-site quote.
         </p>
         <Link href="/contact" className="btn-primary">
-          Request a {city} Land Clearing Quote
+          Request a {city} Clearing Quote
         </Link>
       </div>
 
       {/* Services Available */}
       <div className="mb-16">
-        <h2 className="text-2xl font-bold mb-8">Land Clearing Services Available in {city}</h2>
-
+        <h2 className="text-2xl font-bold mb-8">Land Clearing Services in {city}</h2>
         <div className="space-y-6">
           <p className="text-zinc-400 mb-4">
-            Our professional team serves all of {city}, offering a comprehensive range of land clearing and forestry mulching services:
+            We handle overgrown lots, wooded acreage, and brushy pasture across {city} and {countyLocation}. Services include:
           </p>
-
           <ul className="list-disc list-inside space-y-2 text-zinc-400 ml-4">
             {services.map((service, index) => (
               <li key={index}>{service}</li>
@@ -71,19 +67,18 @@ export default function ServiceAreaContent({
 
       {/* Featured Service */}
       <div className="mb-16">
-        <h2 className="text-2xl font-bold mb-8">Featured Service in {city}</h2>
-
+        <h2 className="text-2xl font-bold mb-8">{featuredService} in {city}</h2>
         <div className="p-6 bg-zinc-800/50 rounded-lg">
           <h3 className="text-xl font-semibold mb-4">{featuredService}</h3>
           <p className="text-zinc-400 mb-4">
-            In {city}, our {featuredService.toLowerCase()} services are particularly in demand. Our expert operators provide professional
-            solutions tailored to the unique needs of {city} residents and property owners.
+            {featuredService} is the most efficient clearing method for the brush and tree species common to {countyLocation} — cedar, yaupon, Chinese tallow, and heavy understory all come down in one pass and get mulched in place.
+            {city} property owners use it to prep lots for construction, reclaim overgrown acreage, and clean up land that hasn't been maintained in years.
           </p>
           <Link
             href="/services/forestry-mulching"
             className="text-white hover:underline inline-flex items-center"
           >
-            Learn more about our forestry mulching services
+            Learn more about forestry mulching
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
@@ -91,15 +86,13 @@ export default function ServiceAreaContent({
         </div>
       </div>
 
-      {/* Service Area Map */}
+      {/* Neighboring Areas */}
       <div className="mb-16">
-        <h2 className="text-2xl font-bold mb-8">{city} Service Area</h2>
-
+        <h2 className="text-2xl font-bold mb-8">Also Serving Near {city}</h2>
         <div className="p-6 bg-zinc-800/50 rounded-lg">
           <p className="text-zinc-400 mb-6">
-            We provide comprehensive land clearing services throughout {city} and surrounding areas, including:
+            We run jobs throughout {countyLocation} and neighboring areas from our Pearland base:
           </p>
-
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {neighboringCities.map((neighbor, index) => (
               <div key={index} className="bg-zinc-800 p-3 rounded text-center">
@@ -112,34 +105,33 @@ export default function ServiceAreaContent({
 
       {/* Why Choose Us */}
       <div className="mb-16">
-        <h2 className="text-2xl font-bold mb-8">Why Choose West Land Clearing in {city}</h2>
-
+        <h2 className="text-2xl font-bold mb-8">Why {city} Calls West Land Clearing</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 bg-zinc-800/50 rounded-lg">
-            <h3 className="font-semibold mb-3">Local Expertise</h3>
+            <h3 className="font-semibold mb-3">One Pass, No Debris Pile</h3>
             <p className="text-zinc-400">
-              Our operators are familiar with {city}&apos;s local conditions and requirements, ensuring all projects meet or exceed local standards.
+              Forestry mulching grinds trees and brush in place — no hauling, no burning, no debris left behind. You get clear land without the cleanup headache that comes with traditional methods.
             </p>
           </div>
 
           <div className="p-6 bg-zinc-800/50 rounded-lg">
-            <h3 className="font-semibold mb-3">Fast Response Times</h3>
+            <h3 className="font-semibold mb-3">Pearland-Based, Close to {city}</h3>
             <p className="text-zinc-400">
-              Being based in Pearland allows us to provide quick response times to {city} customers, with prompt service when you need it.
+              Being based in Pearland means we're close to most of {countyLocation} — fast mobilization, no long travel markups, and good knowledge of the local terrain and brush conditions.
             </p>
           </div>
 
           <div className="p-6 bg-zinc-800/50 rounded-lg">
-            <h3 className="font-semibold mb-3">Comprehensive Services</h3>
+            <h3 className="font-semibold mb-3">Honest On-Site Estimates</h3>
             <p className="text-zinc-400">
-              From forestry mulching to stump grinding and brush removal, we offer a complete range of land clearing services to {city} residents and property owners.
+              We walk the property before quoting. Acreage and brush density are what drives the price — we assess both on-site so there are no surprises when the invoice comes.
             </p>
           </div>
 
           <div className="p-6 bg-zinc-800/50 rounded-lg">
-            <h3 className="font-semibold mb-3">Quality Workmanship</h3>
+            <h3 className="font-semibold mb-3">Owner-Operated</h3>
             <p className="text-zinc-400">
-              We&apos;re committed to delivering exceptional quality on every project in {city}, with customer satisfaction as our top priority.
+              The person giving you the estimate is the operator running the machine. No dispatching, no middleman — direct communication and accountability on every {city} job.
             </p>
           </div>
         </div>
@@ -147,9 +139,9 @@ export default function ServiceAreaContent({
 
       {/* Contact CTA */}
       <div className="p-8 bg-zinc-800/80 rounded-lg">
-        <h2 className="text-xl font-semibold mb-4">Ready to schedule land clearing in {city}?</h2>
+        <h2 className="text-xl font-semibold mb-4">Get a Clearing Quote for Your {city} Property</h2>
         <p className="text-zinc-400 mb-6">
-          Contact us today to discuss your land clearing needs and get a free on-site estimate. Our team is ready to serve your {city} location.
+          Let us know the acreage, the type of brush or trees, and the location in {city}. We'll get back to you with an estimate and availability.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link href="/contact" className="btn-primary">
@@ -160,7 +152,6 @@ export default function ServiceAreaContent({
     </div>
   );
 
-  // Side content column with quick contact form
   const sideContent = (
     <div className="mt-8 lg:mt-0 lg:sticky lg:top-8">
       <QuickContactForm />
