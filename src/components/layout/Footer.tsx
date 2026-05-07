@@ -129,7 +129,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              WestWeld
+              West Weld
               <ArrowUpRight className="ml-1 h-3 w-3" />
             </a>
           </div>
