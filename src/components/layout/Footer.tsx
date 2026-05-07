@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="col-span-1">
             <Link href="/" className="block mb-6">
               <Image
-                src="/images/west-construction.png"
+                src="/images/west-land-clearing-logo.png"
                 alt="West Land Clearing Logo"
                 width={120}
                 height={32}

@@ -15,7 +15,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center py-3">
           <Image 
-            src="/images/west-construction.png" 
+            src="/images/west-land-clearing-logo.png"
             alt="West Land Clearing Logo"
             width={60} 
             height={16} 
