@@ -108,21 +108,30 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Sister Company and Copyright */}
+        {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center pt-8 border-t border-zinc-800">
-          <div className="flex items-center">
-            <Link href="/" className="text-lg font-bold text-white mr-6">
-              WEST LAND CLEARING
+          <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-6">
+            <Link href="/" className="text-lg font-bold text-white">
+              West Land Clearing
             </Link>
-            <Link
+            <a
               href="https://west.construction"
               className="flex items-center text-sm text-zinc-400 hover:text-zinc-100"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Visit West Construction: west.construction
+              West Construction
               <ArrowUpRight className="ml-1 h-3 w-3" />
-            </Link>
+            </a>
+            <a
+              href="https://westweld.co"
+              className="flex items-center text-sm text-zinc-400 hover:text-zinc-100"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WestWeld
+              <ArrowUpRight className="ml-1 h-3 w-3" />
+            </a>
           </div>
           <p className="text-sm text-zinc-500 mt-4 md:mt-0">
             &copy; {new Date().getFullYear()} West Land Clearing. All rights reserved.
