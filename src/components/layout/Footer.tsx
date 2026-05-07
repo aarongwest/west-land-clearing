@@ -95,7 +95,7 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-zinc-100 mb-4">Contact</h3>
             <div className="space-y-3 text-sm text-zinc-400">
-              <p>Pearland, TX</p>
+              <p>1402 Pineland Dr<br />Pearland, TX 77581</p>
               <p>
                 <Link href="/contact" className="hover:text-zinc-100">
                   Contact us via our form

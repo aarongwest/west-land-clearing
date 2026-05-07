@@ -44,7 +44,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-medium mb-2">Location</h3>
                     <p className="text-zinc-400">
-                      Pearland, TX
+                      1402 Pineland Dr<br />Pearland, TX 77581
                     </p>
                   </div>
 

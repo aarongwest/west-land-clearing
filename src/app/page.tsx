@@ -162,8 +162,10 @@ export default function Home() {
           "url": "https://westlandclearing.com",
           "address": {
             "@type": "PostalAddress",
+            "streetAddress": "1402 Pineland Dr",
             "addressLocality": "Pearland",
             "addressRegion": "TX",
+            "postalCode": "77581",
             "addressCountry": "US"
           },
           "geo": {
